@@ -39,7 +39,7 @@ def LemNormalize(text):
 
 # Keyword Matching
 GREETING_INPUTS = ("hello", "hi", "greetings", "sup", "what's up","hey","yo","wassup")
-GREETING_RESPONSES = ["hi", "hey", "*nods*", "hi there", "hello", "I am glad! You are talking to me"]
+GREETING_RESPONSES = ["hi", "hey", "sup", "hi there", "hello", "I am glad! You are talking to me"]
 
 def greeting(sentence):
     """If user's input is a greeting, return a greeting response"""
